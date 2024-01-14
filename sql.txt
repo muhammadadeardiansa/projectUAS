@@ -1,0 +1,5 @@
+create table pembayaran (
+pembayaranID int(11) primary key,
+BuktiPembayaran varchar(255),
+metodePembayaran enum('shopeepay','dana','gopay'),
+totalTiket int(10));
